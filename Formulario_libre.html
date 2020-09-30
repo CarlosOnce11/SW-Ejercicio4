@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario_libre</title>
+	<link rel="stylesheet" type="text/css" href="css/MiEstilo.css">
+</head>
+<body>
+	<div id="agrupar">
+		<header id="cabecera">
+			<a href="https://www.ibm.com/mx-es">
+			    <img src="https://img.favpng.com/3/25/11/ibm-icon-png-favpng-SarzsAj643E7BGdMcfXK4Mf0W.jpg" width="70"height="30" >
+		    </a>
+		</header>
+        <aside id="columna">
+    	    <img src="ibm.jpg">
+        </aside>
+	    <section id="seccion">
+	    	<article>
+		        <form name="formulario" method="post" action="procesar.php" >
+		        <p>¿Ya tienes una cuenta de IBM? &nbsp;<a href="https://www.ibm.com/account/reg/us-en/login?formid=urx-19776&target=https%3A%2F%2Fidaas.iam.ibm.com%2Fidaas%2Foidc%2Fendpoint%2Fdefault%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3DY2RiMmEwODMtZTZkOS00%26scope%3Dopenid%26state%3D-2031011288_1601440170156%26redirect_uri%3Dhttps%253A%252F%252Fwww.ibm.com%252Fsupport%252Fknowledgecenter%252Foidcclient%252Fibmsso">Iniciar sesión</a></p><br>
+		        <h6>Registrate para obtener un IBMid</h6><br>
+			    <p>
+			    	Nombre:
+				    <label><input type="text" name="nombre" placeholder="Ingere nombre" autofocus="autofocus" autocomplete="on"  pattern="[a-z]" required ></label>&nbsp;
+				    Apellidos:
+                    <label><input type="text" name="Apellidos" placeholder="Ingrese Apellidos"></label>
+			    </p>
+	            <p>
+	            	Edad:
+				    <label><input type="text" name="edad" maxlength="2" placeholder="Ingrese edad" required></label>
+			    </p>			
+			    <p>
+				    País:
+				    <select>
+				    <option>Canada</option>
+				    <option>Russia</option>
+				    <option>Italia</option>
+				    <option>España</option>
+				    <option>Brasil</option>
+				    <option>México</option>
+				    <option>Belgica</option>
+				    <option>Portugal</option>
+				    <option>Otro</option>
+			        </select>
+			    </p>
+			    <p>
+			    	correo:
+				    <label><input type="email" id="email" pattern="gmail.com"  size="30" placeholder="Nombre@dominio.com"required></label>
+			    </p>
+			    <p> 
+			    	Fecha de  nacimiento:
+				    <select>
+					    <option>Dia</option>
+					    <option>01</option>
+					    <option>02</option>
+				        <option>03</option>
+				        <option>04</option>
+				        <option>05</option>
+				        <option>06</option>
+				        <option>07</option>
+				        <option>08</option>
+				        <option>09</option>
+				        <option>10</option>
+				        <option>11</option>
+					    <option>12</option>
+				        <option>13</option>
+				        <option>14</option>
+				        <option>15</option>
+				        <option>16</option>
+				        <option>17</option>
+				        <option>18</option>
+				        <option>19</option>
+				        <option>20</option>
+				        <option>21</option>
+					    <option>22</option>
+				        <option>23</option>
+				        <option>24</option>
+				        <option>25</option>
+				        <option>26</option>
+				        <option>27</option>
+				        <option>28</option>
+				        <option>29</option>
+				        <option>30</option>
+				    </select>
+				    <select>
+					    <option>Mes</option>
+					    <option>Enero</option>
+				        <option>Febrero</option>
+				        <option>Marzo</option>
+				        <option>Abril</option>
+				        <option>Mayo</option>
+				        <option>Junio</option>
+				        <option>Julio</option>
+				        <option>Agosto</option>
+				        <option>Septiembre</option>
+				        <option>Octubre</option>
+				        <option>Noviembre</option>
+				        <option>Diciembre</option>
+				    </select>
+				    <select>
+					    <option>Año</option>
+					    <option>2020</option>
+				        <option>2019</option>
+				        <option>2018</option>
+				        <option>2017</option>
+				        <option>2016</option>
+				        <option>2015</option>
+				        <option>2014</option>
+				        <option>2013</option>
+				        <option>2012</option>
+				        <option>2011</option>
+				        <option>2010</option>
+				        <option>2009</option>
+				        <option>2008</option>
+				      	<option>2007</option>
+				        <option>2006</option>
+				        <option>2005</option>
+				        <option>2004</option>
+				        <option>2003</option>
+				        <option>2002</option>
+				        <option>2001</option>
+				        <option>2000</option>
+				        <option>1999</option>
+				        <option>1998</option>
+				        <option>1997</option>
+				        <option>1996</option>
+				    </select>	
+			    </p>
+			    <p>
+			    	Sexo:
+				    <label><input type="checkbox" name="checkbox">&nbsp;mujer</label>&nbsp;
+				    <label><input type="checkbox" name="checkbox">&nbsp;hombre</label>
+			    </p>
+			    <p> 
+			    	Contraseña:
+				    <label><input type="password" name="password" maxlength="10" placeholder="Ingrese password" required></label>
+			    </p>
+                <p>
+            	    <label>Telefono:
+            		    <select>
+            			<option>+1</option>
+            			<option>+7</option>
+            			<option>+32</option>
+            			<option>+34</option>
+            			<option>+39</option>
+            			<option>+52</option>
+            			<option>+55</option>
+            			<option>+351</option>
+            			<option>+502</option>
+            	        <option>+57</option>
+            	        <option>otro</option>	
+            		    </select>
+            		 -
+                        <input type="tel" name="telefono" maxlength="10" placeholder="Ingrese número">
+                    </label>
+                </p>
+                 <p>
+				    <label><input type="submit" name="Enviar"></label>
+			    </p>
+            </article>
+	    </section>
+	    <footer id="pie">
+		    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsIWzvBYXVhrr4727X5q4KkJucd0wjxYshMw&usqp=CAU" width="200">
+        </footer>
+    </div>
+</body>
+</html>

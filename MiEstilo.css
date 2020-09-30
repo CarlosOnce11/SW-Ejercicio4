@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+	padding:0px;
+}
+ section{
+	display: block;
+}
+body{
+	text-align: center;
+}
+#agrupar{
+	margin: 0px auto;
+	text-align: left;
+}
+#cabecera{
+	background: #ffffff;
+	border: 1px solid #999999; 
+	padding: 20px;
+	width: 2100px;
+	height: 10px;
+	position: fixed;
+	
+}
+#seccion{
+	float: right;
+	width: 625px;
+	margin: 100px 0px;
+}
+#columna {
+	float: left;
+    margin: 50px 0px;
+    
+}
+#pie{
+	clear: both;
+	text-align: left;
+	padding: 0px;
+
+	background: black;
+}
+
+input,select{
+	cursor:pointer;
+}
+p{
+	padding: 10px;
+}
+h6{
+	font-size: 30px;
+}
